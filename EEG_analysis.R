@@ -7,7 +7,7 @@ library(interactions)
 
 #Imports and organizing ----
 
-setwd("C:/Users/ariel/Dropbox/Experiments/APP_AVO_Conflicts_EEG/For OSF")
+setwd("Your WD here")
 DataWide = read.csv('data/all_EEG_measures.csv')
 DataWide$subject = c(3:7,9:11,13:21,23:27,29:35)
 Data = wideToLong(DataWide,within = 'Conflict')
